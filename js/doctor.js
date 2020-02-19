@@ -1,5 +1,5 @@
 "use strict";
-import Nombre from './nombre.js';
+//import Nombre from './nombre.js';
 export default class Doctor{
     constructor(nombre,especialidad,telefono,cedula){
         this.nombre = nombre;
@@ -13,5 +13,5 @@ export default class Doctor{
     }
 }
 
-var doctor = new Doctor(new Nombre('felipe','rodriguez','ontiveros'),'cirujano pediatra',3121775682,123456789);
-console.log(doctor.getPerfil());
+/*var doctor = new Doctor(new Nombre('felipe','rodriguez','ontiveros'),'cirujano pediatra',3121775682,123456789);
+console.log(doctor.getPerfil());*/

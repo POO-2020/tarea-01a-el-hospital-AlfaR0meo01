@@ -9,11 +9,11 @@ export default class Time {
     getFormato12() {
         this.hora = this.hora % 12;
         this.hora = this.hora ? this.hora : 12;
-        return `la hora es ${this.hora}:${this.minutos} ${this.ampm}`;
+        return ` ${this.hora}:${this.minutos} ${this.ampm}`;
     }
 
     getFormato24() {
-        return `la hora es ${this.hora}:${this.minutos} ${this.ampm} `;
+        return `${this.hora}:${this.minutos} ${this.ampm} `;
     }
 }
 

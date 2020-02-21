@@ -17,9 +17,5 @@ export default class Nombre {
     }
 }
 
-/*var nombre = new Nombre('felipe', 'rodriguez', 'ontiveros');
-console.log(nombre.getNombreCompleto());
-console.log(nombre.getApellidoNombre());
-console.log(nombre.getIniciales());*/
 
 
